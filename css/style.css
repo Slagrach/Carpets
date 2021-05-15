@@ -766,7 +766,7 @@ body.no-scroll {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 5;
+  z-index: 10;
   margin: 0 26px 0 0;
 }
 
@@ -787,7 +787,7 @@ body.no-scroll {
 }
 
 .select-box .SumoSelect > .CaptionCont > label > i {
-  background-image: url("../img/header/arrow.svg");
+  background-image: url("../../img/header/arrow.svg");
 }
 
 .select-box .SumoSelect > .CaptionCont > span {
@@ -1533,28 +1533,28 @@ td {
 
 .how-img1:before {
   position: absolute;
-  content: url("../img/how/how1.svg");
+  content: url("../../img/how/how1.svg");
   right: 0;
   bottom: -8px;
 }
 
 .how-img2:before {
   position: absolute;
-  content: url("../img/how/how2.svg");
+  content: url("../../img/how/how2.svg");
   right: 0;
   bottom: -8px;
 }
 
 .how-img3:before {
   position: absolute;
-  content: url("../img/how/how3.svg");
+  content: url("../../img/how/how3.svg");
   right: 0;
   bottom: -8px;
 }
 
 .how-img4:before {
   position: absolute;
-  content: url("../img/how/how4.svg");
+  content: url("../../img/how/how4.svg");
   right: 0;
   bottom: -8px;
 }
@@ -2497,7 +2497,7 @@ td {
   }
 
   .intro {
-    background-image: url("../img/intro/introBg2.png") !important;
+    background-image: url("../../img/intro/introBg2.png") !important;
     background-position: inherit;
   }
 
@@ -2711,7 +2711,7 @@ td {
   .cost-display__left {
     width: 33px;
     height: 33px;
-    background: url("../img/cost/check2.svg") 4px 7px no-repeat !important;
+    background: url("../../img/cost/check2.svg") 4px 7px no-repeat !important;
     margin: 0 11px 0 14px;
   }
 
@@ -3083,7 +3083,7 @@ td {
 }
 @supports (-webkit-appearance:none){
 .SumoSelect > .CaptionCont > label > i{background-image:url("../img/cost/arrows.svg")}
-.select-box .SumoSelect > .CaptionCont > label > i{background-image:url("../img/header/arrow.svg")}
+.select-box .SumoSelect > .CaptionCont > label > i{background-image:url("../../img/header/arrow.svg")}
 }
 
  @media (min-width: 1366.98px){
@@ -3145,8 +3145,8 @@ td {
  @media (max-width: 767px){
 
 @supports (-webkit-appearance:none){
-.intro{background-image:url("../img/intro/introBg2.webp") !important}
-.cost-display__left{background:url("../img/cost/check2.svg") 4px 7px no-repeat !important}
+.intro{background-image:url("../../img/intro/introBg2.webp") !important}
+.cost-display__left{background:url("../../img/cost/check2.svg") 4px 7px no-repeat !important}
 }
 
 }
